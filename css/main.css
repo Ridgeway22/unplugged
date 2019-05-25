@@ -108,16 +108,27 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-flow: row wrap;
+margin: 0;
+background-color: #202322;
+color: #e2e3ed;
+}
+
+header{
+padding: 15px 0;
 }
 
 header img{
-  width: 80%;
+width: 60%;
+padding-bottom: 5px;
 }
+
 header .content-wrapper{
 display: flex;
 justify-content: center;
 align-items: center;
 flex-flow: row wrap;
+padding: 20px 0;
+margin: 0;
 }
 
 header nav{
@@ -125,36 +136,53 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 flex-flow: row wrap;
+width: 60%;
 }
 
 header nav ul{
 display: flex;
+justify-content: center;
 align-items: center;
-list-style: none;
+list-style-type: none;
+width: 45%;
+margin: 0;
+padding: 15px 15px;
+font-size: 2.45em;
+color: #fff;
+font-size: 1.2em;
 }
 
-header nav ul li{
-  padding: 10px;
+header nav ul li a{
+padding: 25px;
+list-style-type: none;
+margin: 0;
 }
-/*
-.footer-content{
-display: flex;
-flex-flow: row wrap;
-justify-content: space-around;
-align-items: center;
+
+.header-divider{
+width: 100%;
+border-top: 1px solid #C0C0C0;
+}
+
+.content-wrapper {
 text-align: center;
-font-size: 18pt;
 }
 
-.footer-content .contact{
-flex-grow: 2;
-padding: 40px;
+footer .content-wrapper{
+width: 55%;
+margin: 50px 0;
+text-align: center;
 }
-*/
+.contact{
+  text-align: center;
+}
 .social{
 list-style: none;
+text-align: center;
 }
 
+footer h4{
+  font-size: 2.5em;
+}
 footer .social-icons{
 display: flex;
 justify-content: space-around;
@@ -165,39 +193,59 @@ footer .social-icons p{
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
-/*.copyright{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-  flex: 100%;*/
-
+.contact{
+  font-size: 1.2em;
 }
+footer p{
+margin: 0;
+}
+
+.copyright{
+  padding: 20px;
+}
+
 /*-----------------mobile styles - homepage----------*/
+/*whole page*/
+
+content-wrapper{
+  width: 60%;
+  padding: 0 20px;
+}
+
+
+
 /*main Content*/
 .hero-area{
-/*background-image: url("../assets/jake.jpg");
+background-image: url("../assets/jake.jpg");
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
-height: 500px;
-color: #ffffff;*/
+color: #ffffff;
 display: flex;
 justify-content: center;
 flex-flow: row wrap;
+height: 900px;
 }
 
 .hero-area .content-wrapper h1{
-  margin: 0 20px;
-  text-align: center;
+  margin: 50px;
+  text-align: left;
 }
 
+main h1{
+    font-size: 2.45em;
+    color: #fff;
+  }
+
+}
 aside{
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  text-align: center;
+  width: 60%;
+
 }
 
 aside .content-wrapper{
@@ -205,10 +253,25 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-flow: row wrap;
+text-align: left;
+width: 90%;
+margin: 0;
+background-color: #527158;
+color: #ffffff;
+padding: 30px;
+font-size: 1.2em
+}
+aside h3{
+  font-size: 1.5em;
+}
+form {
+text-align: left;
 }
 
-.form{
-
+.form input{
+margin: 10px;
+padding: 15px;
+width: 80%;
 }
 
 .form-description{
@@ -219,6 +282,23 @@ flex-flow: row wrap;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-image: url("../assets/raw.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #e2e3ed;
+  padding: 20px;
+  font-size: 1.2em;
+}
+
+.features p{
+margin: 0;
+padding: 10px;
+}
+
+.features h2{
+  font size: 3em;
+  padding: 10px;
 
 }
 
@@ -227,21 +307,39 @@ flex-flow: row wrap;
   flex-flow: row wrap;
   list-style: none;
   justify-content: center;
-
-
+  text-align: center;
 }
-/*
-.features .features-item-description{
-  display: flex;
-  flex-flow: row wrap;
+
+.features article{
+  width: 60%;
+  padding: 20px;
 }
-*/
+
+.reviews p{
+padding: 20px;
+text-align: left;
+}
 .reviews{
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-
+  background-color: #527158;
+  color: #ffffff;
+  font-size: 1.0em;
 }
+.reviews img{
+  height: 200px;
+  width: 90%;
+}
+
+.reviews h2{
+font-size: 2.0em;
+}
+.reviews h3{
+width: 48%;
+padding: 0 20px;
+}
+
 /*About page*********************/
 
 
