@@ -477,14 +477,14 @@ footer .copyright{
 width: 40%;
   }
 
-  .contact-section, .content-wrapper h2{
+.contact-section .content-wrapper h2 {
     width: 80%;
   }
 
-.contact-content{
+.contact-content {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 /***faq***/
 
@@ -497,37 +497,6 @@ width: 40%;
 }
 
 .faq h2{
-  width: 100%;
-}
-/************************* about page***************/
-mission-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.mission-content p {
-  width: 40%;
-}
-.contact-section, .content-wrapper h2 {
-  width: 65%;
-}
-.contact-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
-/*****************faq page*******************************************/
-.faq .content-wrapper{
-  justify-content: space-between;
-}
-
-.faq-content {
-  flex-basis: 40%
-}
-.faq h2 {
   width: 100%;
 }
 }
@@ -567,13 +536,14 @@ aside .content-wrapper .form{
 /*=====================================
 About page
 =======================================*/
+
 .mission h2,
 .contact-section .content-wrapper h2{
-  width: 60%;
+  width: 100%;
 }
 
 .contact-section .content-wrapper h2{
-  margin-bottom: 10%;
+  margin-bottom: 40px;
 }
 
 /*================================
