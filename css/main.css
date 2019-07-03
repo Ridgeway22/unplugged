@@ -394,6 +394,21 @@ input[type=button] {
   margin: 0;
 }
 
+.map figure{
+position: relative;
+padding-bottom: 75%;
+height: 0;
+overflow: hidden;
+
+}
+
+.map iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 /* ---------------------- FAQ Page------------------------- */
 
 .faq {
@@ -688,6 +703,8 @@ width: 40%;
 .contact-content h4{
   font-size: 1.5em;
 }
+
+
 
 
 /***faq***/
