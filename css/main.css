@@ -395,8 +395,9 @@ input[type=button] {
 }
 
 .map figure{
+  width: 100%;
 position: relative;
-padding-bottom: 75%;
+padding-bottom: 80%;
 height: 0;
 overflow: hidden;
 
