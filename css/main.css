@@ -174,8 +174,15 @@ font-style: normal;
   margin: 50px 0;
 }
 
-
-
+.features i {
+	font-size: 3.75em;
+  margin-bottom: 40px;
+}
+.footer-content i {
+  font-size: 3.75em;
+  padding: 0 20px 0 0;
+  width: 40%;
+}
 /* -------------------- Base Header - Footer Styles -------------------- */
 
 header,
